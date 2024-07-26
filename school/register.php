@@ -119,7 +119,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </div>
         <div class="form-group">
             <label for="password">Password:</label>
-            <input type="password" class="form-control" name="password" required>
+            <input type="password" class="form-control" name="password" pattern=".{8,}" title="Password harus minimal 8 karakter" required>
         </div>
         <button type="submit" class="btn btn-primary btn-block">Register</button>
     </form>

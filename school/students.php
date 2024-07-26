@@ -185,7 +185,7 @@ if (isset($_GET['edit'])) {
             <?php endif; ?>
         </form>
     </div>
-
+  
     <h2>Daftar Siswa</h2>
     <table class="table table-bordered mt-4">
         <thead>
